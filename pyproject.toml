@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "astra-python"
+version = "0.1"
+authors = [
+    {name = "Tristen Miller", email = "millert9999@gmail.com"}
+]
+description = "A class for interacting with the Orbbec Astra camera using openni2 python bindings"
+readme = "README.md"
+requires-python = "==3.7.17"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+Homepage = "https://github.com/nannn3/astra"
+Issues = "https://github.com/nannn3/astra/issues"
